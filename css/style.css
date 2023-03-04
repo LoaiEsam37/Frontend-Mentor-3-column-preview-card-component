@@ -14,7 +14,7 @@ body {
 .card {
     display: flex;
     flex-direction: row;
-    width: 700px;
+    width: 800px;
     height: fit-content;
 }
 
