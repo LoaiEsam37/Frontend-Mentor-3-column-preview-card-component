@@ -42,7 +42,7 @@ body {
     margin-top: var(--space-between-elements);
 }
 
-.card_category--button {
+.card_category--button a {
     margin-top: calc(var(--space-between-elements)*2);
     background-color: white;
     height: 40px;
@@ -51,17 +51,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
-.sedans .card_category--button {
+.sedans .card_category--button a {
     color: #e28525;
 }
 
-.suvs .card_category--button {
+.suvs .card_category--button a {
     color: #016972;
 }
 
-.luxury .card_category--button {
+.luxury .card_category--button a {
     color: #00403f;
 }
 
