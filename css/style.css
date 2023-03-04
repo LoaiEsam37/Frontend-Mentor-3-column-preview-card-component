@@ -1,0 +1,74 @@
+:root {
+    --space-between-elements: 25px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: fit-content;
+}
+
+.card_wrapper {
+    padding: var(--space-between-elements);
+}
+
+.card_category:nth-child(1) {
+    background-color: #e28525;
+}
+
+.card_category:nth-child(2) {
+    background-color: #016972;
+}
+
+.card_category:nth-child(3) {
+    background-color: #00403f;
+}
+
+
+.card_category--title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin-bottom: var(--space-between-elements);
+    margin-top: var(--space-between-elements);
+}
+
+.card_category--button {
+    margin-top: calc(var(--space-between-elements)*2);
+    background-color: white;
+    height: 40px;
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sedans .card_category--button {
+    color: #e28525;
+}
+
+.suvs .card_category--button {
+    color: #016972;
+}
+
+.luxury .card_category--button {
+    color: #00403f;
+}
+
+@media(max-width: 730px) {
+    .card {
+        flex-direction: column;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
