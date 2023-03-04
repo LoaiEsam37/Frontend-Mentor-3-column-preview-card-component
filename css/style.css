@@ -58,13 +58,33 @@ body {
     color: #e28525;
 }
 
+.sedans .card_category--button a:hover {
+    background-color: #e28525;
+    border: 1px solid white;
+    color: white;
+}
+
 .suvs .card_category--button a {
     color: #016972;
 }
 
+.suvs .card_category--button a:hover {
+    background-color: #016972;
+    border: 1px solid white;
+    color: white;
+}
+
+
 .luxury .card_category--button a {
     color: #00403f;
 }
+
+.luxury .card_category--button a:hover {
+    background-color: #00403f;
+    border: 1px solid white;
+    color: white;
+}
+
 
 @media(max-width: 730px) {
     .card {
